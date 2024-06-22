@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<body class="overflow-x-hidden bg-black">
+    
+    <header class="flex space-x-[610px] pt-[30px] p-[70px] align-baseline  text-white">
+       
+        <a class="font-semibold text-8xl top-[2px] " id="ab" href="">Travel</a>
+        <div class="space-x-[35px] flex ">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Shop</a>
+          <a href="">Packages</a>
+          <a href="">Reviews</a>
+         <i class="fa-solid fa-cart-shopping text-white"></i>
+          <div class="fas fa-search" onclick="hi()"></div>
+          
+        
+        </div>
+      </header>
+
+
+      <div class="search-form">
+        <div id="close-search" class="fas fa-times" onclick="bye()"></div>
+        <form action=""><input type="search" name="" placeholder="Search Here..." id="search-box">
+        <label for="search-box"  class="fas fa-search"></label>
+        </form></div>
+        <div class="" id="hero">
+          <div id="container" class="flex justify-center pr-[230px]">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/027/104/889/small_2x/adventure-concept-captured-in-a-composite-image-of-silhouette-rappelling-from-a-cliff-at-colorful-sunrise-or-sunset-showcasing-stunning-mountains-in-british-columbia-canada-photo.jpg" alt="" class=" object-cover">
+            <img src="https://static2.tripoto.com/media/filter/tst/img/OgData/1458116904_1457977545_1.jpg" alt="" class="  object-cover">
+            <img src="https://assets.scott-sports.com/pages/adventure-gear/2023/adventure-gear-parallax-2023-voyager-dryo.jpg" alt="" class=" object-cover">
+            <img src="https://karnatakatourism.org/wp-content/uploads/2020/06/Adventure.jpg" alt="" class=" object-cover">
+            <img src="https://images.news18.com/ibnlive/uploads/2023/06/travel-or-extreme-travel-or-mountain-travel-or-trekking-16877814053x2.jpg" alt="" class=" object-cover">
+            <img src="https://www.peakadventuretour.com/blog/wp-content/uploads/2018/06/Bungee-Jumping-in-India.jpg" alt="" class="  object-cover">
+            <img src="https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/64d3853418a507bc6b3d03a0_Vol%20en%20parapente%20au%20mont%20blanc.jpg" alt="" class=" object-cover">
+            <img src="https://media.istockphoto.com/id/516449022/photo/lady-with-kayak.webp?b=1&s=612x612&w=0&k=20&c=PsQQpGXVtV9dPDaH-DNEgeMAHjqkViCSQsSrkqlHKRk=" alt="" class="  object-cover">
+            <p class="text-white absolute right-[100px] text-8xl down-[20px]" >Explore the <br><spam class="text-green-500">World</spam> </p>
+            <div>
+              <div class="bg-black-400 w-[450px] h-[170px]  rounded-[30px] absolute right-[110px] bottom-[260px] p-6">
+                <p class="text-white text-lg leading-relaxed">
+                  Welcome , where your journey begins! Whether you're dreaming of serene beaches, bustling cities, or remote mountain trails, we are here to turn your travel fantasies into reality. Our mission is to inspire your wanderlust and provide you with all the tools and resources you need for an unforgettable adventure. Start your next great adventure with us today!
+                </p>
+              </div>
+            </div>
+              
+            </div>
+          </div>
+          <h1 class="text-white text-5xl left-[570px] pt-[160px] absolute">Adventure <span id="z">Ideas!</span> </h1>
+          <div class="flex w-[200px] pt-[270px] left-[100px] absolute space-x-[150px] ">
+            <img class="rounded-full" src="https://imgs.search.brave.com/KAdB__EmMQ2jCKzT1C-1xONl1xZfo4TRlcE44T7odMg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTQ3/NDM2OTEyL3Bob3Rv/L2J1bmdlZS1qdW1w/aW5nLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz15R0FkdHZf/bzVoOXV6c0xoSEZ4/VTlhbF9ILTNFemdT/Q3VxUmlKOUhxMDhB/PQ" alt="">
+            <img class="rounded-full"src="https://imgs.search.brave.com/a-87JPervBs9XsskJ9Y2uQVwSjGrZUlSSLEn6laJMiI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/MWU3MmIwNjBhMTU2/ZDQ2MjEzZjkzZjgv/NjI0NzVlZjNmOGE0/NTc3NTQ5MmViYjhj/X0ludGVyemlwX1Jv/Z2Vyc19EU0M3Mjk5/LmpwZw" alt="">
+            <img class="rounded-full"src="https://imgs.search.brave.com/8a1fXAzj3Zvxa7Hwp8y-T-1lzi1eMfbSfQDTtQppPCg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQy/Nzg2ODA5L3Bob3Rv/L2NvdXBsZS1rYXlh/a2luZy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9T0hQdFlt/Ri1aTEtVX1p4b2pp/WUxtTmJYSGxDdWtQ/VG1CZ2d1OXBmVlJz/RT0" alt="">
+            <img class="rounded-full"src="https://imgs.search.brave.com/yiSorGVRH1jfVeMu0fI3OByJZ78ZQ4tHET6CGKjVRBs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MzAwNjIwOTY5NTkt/ZGIxNDM0ODg3NjFk/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TW54OGJX/OTFiblJoYVc0bE1q/QjBjbVZyYTJsdVoz/eGxibnd3Zkh3d2ZI/eDhNQT09" alt="">
+          </div>
+          <p class="text-green-300 text-2xl absolute bottom-[-490px] right-[1190px]">Bungee Jumping</p>
+          <p class="text-green-300 text-2xl absolute bottom-[-490px] right-[880px]">ZipLines</p>
+          <p class="text-green-300 text-2xl absolute bottom-[-490px] right-[520px]">Canoeing</p>
+          <p class="text-green-300 text-2xl absolute bottom-[-490px] right-[170px]">Treking</p>
+
+
+          <div class="flex ">
+            <div class="">
+              <h1 class="text-4xl font-bold  pl-[100px] pt-[940px] leading-[0.9] text-green-300">Memorable Outdoor Experiences</h1>
+              <p class="text-white pt-[30px] pl-[100px]">Welcome to our travel website, where wanderlust meets convenience.<br> We are passionate about crafting unforgettable travel experiences tailored<br> to your desires. Whether you seek the sun-kissed beaches of tropical paradises<br> the cultural riches of historic cities, or the adrenaline rush of adventurous<br> landscapes, we are here to guide you every step of the way. With a commitment <br>to quality and personalization, we offer a curated selection of destinations<br>accommodations, and activities, ensuring each journey is as unique as you are. <br>Let us inspire your next adventure and turn your travel dreams into cherished memories.
+
+
+
+
+
+
+              </p>
+</div>
+            <div class="absolute right-[70px] pt-[900px]">
+              <img class="w-[600px]  " src="https://imgs.search.brave.com/m2RBiQzcz2BVACMHGHbSQD1yb6L2kFjfWOT4BwpLRi4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTUw/MDU2MzQ3OC9waG90/by90cmF2ZWxlci1h/c2lhbi13b21hbi1y/ZWxheC1hbmQtdHJh/dmVsLW9uLXRoYWkt/bG9uZ3RhaWwtYm9h/dC1pbi1yYXRjaGFw/cmFwaGEtZGFtLWF0/LWtoYW8tc29rLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1f/YmIyUGRQSk10WTlL/bU5OQlNGWTZ3X1RP/Y0M5OHdlNDVMdnNZ/b2E0OHA4PQ">
+            </div>
+            
+           
+            </div>
+        
+        
+        
+          </div>
+          <div class="btn-pink absolute right-[1205px] bottom-[-1140px]" id="btn">Read More</div> 
+
+
+          <h1 class="text-white text-6xl absolute left-[505px] bottom-[-1450px] font-[100px]"><span class="text-green-300">Featured </span>Products</h1>
+          <div class="flex flex-wrap justify-center pt-[500px]">
+            <div class="w-1/2 md:w-1/4 xl:w-1/4 p-4">
+              <div class="bg-white p-4 rounded-lg shadow-sm flex flex-col ">
+                <img src="https://media.istockphoto.com/id/134406993/photo/hiking-boots.jpg?s=612x612&w=0&k=20&c=UALsbOnzUgM3yE51R2ESTr4YdTi0C7sQrYomfRv76r8=" class="w-full h-48 object-cover rounded-t-lg" />
+                <div class="p-4 flex justify-between">
+                  <h2 class="text-3xl font-bold">₹ 3000</h2>
+                  <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/2 md:w-1/4 xl:w-1/4 p-4">
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
+                <img src="https://adventuregears.com/pub/media/catalog/product/cache/84dde5ea1462aada71ecf99df411d559/e/d/edelrid_novalite_headlamp_1_.jpg" class="w-full h-48 object-cover rounded-t-lg" />
+                <div class="p-4 flex justify-between">
+                  <h2 class="text-3xl font-bold">₹ 1500</h2>
+                  <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/2 md:w-1/4 xl:w-1/4 p-4">
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
+                <img src="https://adventuregears.com/pub/media/catalog/product/cache/4a324a677e0a78f4331566802eeb503f/c/o/coleman_fyrelite_stove_1.jpg" class="w-full h-48 object-cover rounded-t-lg" />
+                <div class="p-4 flex justify-between">
+                  <h2 class="text-3xl font-bold">₹ 3200</h2>
+                  <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/2 md:w-1/4 xl:w-1/4 p-4">
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
+                <img src="https://adventuregears.com/pub/media/catalog/product/cache/4a324a677e0a78f4331566802eeb503f/c/o/coleman_atlantic_lite_10_sleeping_bag_1_.jpg" class="w-full h-48 object-cover rounded-t-lg" />
+                <div class="p-4 flex justify-between">
+                  <h2 class="text-3xl font-bold">₹ 2200</h2>
+                  <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap justify-center ">
+            <div class="w-1/2 md:w-1/4 xl:w-1/4 p-4">
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
+                <img src="https://adventuregearonline.com.au/wp-content/uploads/2021/08/masters-dolomiti-calu-500x500.jpg" class="w-full h-48 object-cover rounded-t-lg" />
+                <div class="p-4 flex justify-between">
+                  <h2 class="text-3xl font-bold">₹ 4200</h2>
+                  <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    <i class="fas fa-shopping-cart "></i> Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/2 md:w-1/4 xl:w-1/4 p-4">
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
+                <img src="https://adventuregearonline.com.au/wp-content/uploads/2024/06/Aurora-2p-1.jpg" class="w-full h-48 object-cover rounded-t-lg" />
+                <div class="p-4 flex justify-between">
+                  <h2 class="text-3xl font-bold">₹ 7000</h2>
+                  <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/2 md:w-1/4 xl:w-1/4 p-4">
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
+                <img src="https://adventuregearonline.com.au/wp-content/uploads/2018/12/fusion-jkt-m-black-front-500x500.jpg" class="w-full h-48 object-cover rounded-t-lg" />
+                <div class="p-4 flex justify-between">
+                  <h2 class="text-3xl font-bold">₹ 2000</h2>
+                  <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/2 md:w-1/4 xl:w-1/4 p-4">
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
+                <img src="https://adventuregearonline.com.au/wp-content/uploads/2018/10/KH-500x500.jpg" class="w-full h-48 object-cover rounded-t-lg" />
+                <div class="p-4 flex justify-between">
+                  <h2 class="text-3xl font-bold">₹ 700</h2>
+                  <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <h1 class="text-white text-7xl absolute left-[450px] bottom-[-2520px] font-bold" id="m">Popular Packages</h1>
+          <div class="grid grid-cols-3 gap-4 pt-[390px] text-white ">
+            <div class="bg-black p-4 rounded-lg shadow-sm shadow-green-300 flex flex-col transition duration-300 ease-in-out hover:scale-105">
+              <img src="https://static.vecteezy.com/system/resources/thumbnails/027/104/889/small_2x/adventure-concept-captured-in-a-composite-image-of-silhouette-rappelling-from-a-cliff-at-colorful-sunrise-or-sunset-showcasing-stunning-mountains-in-british-columbia-canada-photo.jpg" alt="Image 1" class="w-full h-40 object-cover mb-4">
+              <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                <i class="fas fa-arrow-right"></i> Explore Now
+              </button>
+              <p class="mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a ullamcorper elementum, velit velit rhoncus nisl, quis fringilla nibh nisi ac sapien.
+              </p>
+            </div>
+            <div class="bg-black p-4 rounded-lg shadow-sm shadow-green-300 flex flex-col transition duration-300 ease-in-out hover:scale-105">
+              <img src="https://static2.tripoto.com/media/filter/tst/img/OgData/1458116904_1457977545_1.jpg" alt="Image 2" class="w-full h-40 object-cover mb-4">
+              <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                <i class="fas fa-arrow-right"></i> Explore Now
+              </button>
+              <p class="mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a ullamcorper elementum, velit velit rhoncus nisl, quis fringilla nibh nisi ac sapien.
+              </p>
+            </div>
+            <div class="bg-black p-4 rounded-lg shadow-sm shadow-green-300 flex flex-col transition duration-300 ease-in-out hover:scale-105">
+              <img src="https://media.istockphoto.com/id/516449022/photo/lady-with-kayak.webp?b=1&s=612x612&w=0&k=20&c=PsQQpGXVtV9dPDaH-DNEgeMAHjqkViCSQsSrkqlHKRk=" alt="Image 3" class="w-full h-40 object-cover mb-4">
+              <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                <i class="fas fa-arrow-right"></i> Explore Now
+              </button>
+              <p class="mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a ullamcorper elementum, velit velit rhoncus nisl, quis fringilla nibh nisi ac sapien.
+              </p>
+            </div>
+            <div class="bg-black p-4 rounded-lg shadow-sm shadow-green-300 flex flex-col transition duration-300 ease-in-out hover:scale-105">
+              <img src="https://assets.scott-sports.com/pages/adventure-gear/2023/adventure-gear-parallax-2023-voyager-dryo.jpg" alt="Image 4" class="w-full h-40 object-cover mb-4">
+              <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                <i class="fas fa-arrow-right"></i> Explore Now
+              </button>
+              <p class="mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a ullamcorper elementum, velit velit rhoncus nisl, quis fringilla nibh nisi ac sapien.
+              </p>
+            </div>
+            <div class="bg-black p-4 rounded-lg shadow-sm shadow-green-300 flex flex-col transition duration-300 ease-in-out hover:scale-105">
+              <img src="https://www.peakadventuretour.com/blog/wp-content/uploads/2018/06/Bungee-Jumping-in-India.jpg" alt="Image 5" class="w-full h-40 object-cover mb-4">
+              <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                <i class="fas fa-arrow-right"></i> Explore Now
+              </button>
+              <p class="mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a ullamcorper elementum, velit velit rhoncus nisl, quis fringilla nibh nisi ac sapien.
+              </p>
+            </div>
+            <div class="bg-black p-4 rounded-lg shadow-sm shadow-green-300 flex flex-col transition duration-300 ease-in-out hover:scale-105">
+              <img src="https://images.news18.com/ibnlive/uploads/2023/06/travel-or-extreme-travel-or-mountain-travel-or-trekking-16877814053x2.jpg" alt="Image 5" class="w-full h-40 object-cover mb-4">
+              <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                <i class="fas fa-arrow-right"></i> Explore Now
+              </button>
+              <p class="mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a ullamcorper elementum, velit velit rhoncus nisl, quis fringilla nibh nisi ac sapien.
+              </p>
+            </div>
+            <h1 class="text-white text-7xl absolute left-[490px] bottom-[-3420px] font-bold" id="">Services We Provide</h1>
+            <div class="grid grid-cols-3 gap-4   bottom-[-4100px] right-[200px] absolute">
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://cdn-icons-gif.flaticon.com/11545/11545413.gif" alt="Image 1" class="w-32 h-40 object-cover mb-4 object-fit">
+                <h2 class="text-black font-bold mb-2">Complete Guide</h2>
+                <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                  Read More
+                </button>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col transition duration-300 ease-in-out hover:scale-105 w-[300px] ">
+                <img src="https://cdn-icons-gif.flaticon.com/13311/13311759.gif" alt="Image 2" class="w-32 h-40 object-cover mb-4">
+                <h2 class="text-black font-bold mb-2">Custom Packages</h2>
+                <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                  Read More
+                </button>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://cdn-icons-gif.flaticon.com/13936/13936784.gif" alt="Image 3" class="w-34 h-40 object-cover mb-4">
+                <h2 class="text-black font-bold mb-2">Family Trips</h2>
+                <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                  Read More
+                </button>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://cdn-icons-gif.flaticon.com/7308/7308523.gif" alt="Image 4" class="w-32 h-40 object-cover mb-4">
+                <h2 class="text-black font-bold mb-2">Train Guides</h2>
+                <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                  Read More
+                </button>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col transition duration-300 ease-in-out hhover:scale-105">
+                <img src="https://cdn-icons-gif.flaticon.com/11201/11201877.gif" alt="Image 5" class="w-32 h-40 object-cover mb-4">
+                <h2 class="text-black font-bold mb-2">Adventure Trail</h2>
+                <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                  Read More
+                </button>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md flex flex-col transition duration-300 ease-in-out hover:scale-105">
+                <img src="https://cdn-icons-gif.flaticon.com/12322/12322189.gif" alt="Image 6" class="w-32 h-40 object-cover mb-4">
+                <h2 class="text-black font-bold mb-2">Various Adventure</h2>
+                <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded self-end">
+                  Read More
+                </button>
+              </div>
+            </div>
+            <div>
+              <header class="flex space-x-[610px] pt-[30px] p-[70px] align-baseline  text-white navbar-bottom">
+            <section class="footer ">
+              <div class="footer-row">
+                <div class="footer-col">
+                  <h4>Info</h4>
+                  <ul class="links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Compressions</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Collection</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Explore</h4>
+                  <ul class="links">
+                    <li><a href="#">Free Designs</a></li>
+                    <li><a href="#">Latest Designs</a></li>
+                    <li><a href="#">Themes</a></li>
+                    <li><a href="#">Popular Designs</a></li>
+                    <li><a href="#">Art Skills</a></li>
+                    <li><a href="#">New Uploads</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Legal</h4>
+                  <ul class="links">
+                    <li><a href="#">Customer Agreement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">GDPR</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Media Kit</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Newsletter</h4>
+                  <p>
+                    Subscribe to our newsletter for a weekly dose
+                    of news, updates, helpful tips, and
+                    exclusive offers.
+                  </p>
+                  <form action="#">
+                    <input type="text" placeholder="Your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                  </form>
+                  <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </header>
+
+
+        
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

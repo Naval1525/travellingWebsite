@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  
+}
+#ab
+{
+
+background-image: linear-gradient(
+  -225deg,
+  #e1d3d3 0%,
+  #626262 29%,
+  #000000 67%,
+  #000000 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 2s linear infinite;
+display: flex;
+    
+}
+
+@keyframes textclip {
+to {
+  background-position: 200% center;
+}
+}
+.search-form{
+position: fixed;
+top:0;left: 0;
+height: 100%;
+width: 100%;
+background: rgba(0,0,0,0.8);
+display:flex;
+align-items: center;
+justify-content: center;
+z-index: 10000;
+transform: translateY(-110%);
+}
+
+#close-search{
+position: absolute;
+top:1.5rem;right:2.5rem;
+cursor:pointer;
+color: white;
+font-size: 4rem;
+}
+
+#close-search:hover{
+color:rgb(105, 117, 105);
+}
+
+.search-form.active{
+transform: translateY(0%);
+}
+
+.search-form form{
+width: 70rem;
+margin: 0 2rem;
+padding-bottom: 2rem;
+border-bottom:.2rem solid white;
+display: flex;
+align-items: center;
+}
+
+.search-form form input{
+width: 100%;
+color: white;
+font-size: 2rem;
+text-transform: none;
+background: none;
+padding-right: 2rem;
+}
+
+.search-form form input::placeholder{
+color: white;
+}
+
+.search-form form label{
+font-size: 3rem;
+cursor:pointer;
+color:white;
+}
+
+.search-form form label:hover{
+color:rgb(147, 161, 147)
+}
+#container{
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap:10px
+}
+#container img{
+  width: 8%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid white;
+  transition: all ease-in-out 0.5s;
+
+
+}
+#container img:hover{
+  width:30%
+}
+
+ 
+#z
+{
+
+background-image: linear-gradient(
+  -225deg,
+  #03a13d 0%,
+  #041c04 29%,
+  #9be9a9 67%,
+  #000000 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 2s linear infinite;
+
+    
+}
+
+@keyframes textclip {
+to {
+  background-position: 200% center;
+}
+}
+.btn-pink {
+    background-color: rgb(44, 132, 32);
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: 500;
+    border: solid 3px transparent;
+    position: relative;
+    z-index: 1;
+  }
+  .btn-pink::before {
+    content: "";
+    position: absolute;
+    background-color: hsl(0, 43%, 99%);
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+  }
+  .btn-pink:hover::before {
+    transform: scaleX(1);
+  }
+  .btn-pink:hover {
+    
+    color:black;
+  }
+  #m
+{
+
+background-image: linear-gradient(
+  -225deg,
+  #cbcccb 0%,
+  #131413 29%,
+  #ffffff 67%,
+  #111010 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 2s linear infinite;
+
+    
+}
+
+@keyframes textclip {
+to {
+  background-position: 200% center;
+}
+}
+.footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1280px;
+  width: 95%;
+  background: #000000;
+  border-radius: 6px;
+}
+.footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding: 60px;
+}
+.footer-row .footer-col h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.footer-col .links {
+  margin-top: 20px;
+}
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer-col .links li a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+.footer-col .links li a:hover {
+  color: #fff;
+}
+.footer-col p {
+  margin: 20px 0;
+  color: #bfbfbf;
+  max-width: 300px;
+}
+.footer-col form {
+  display: flex;
+  gap: 5px;
+}
+.footer-col input {
+  height: 40px;
+  border-radius: 6px;
+  background: none;
+  width: 100%;
+  outline: none;
+  border: 1px solid #7489C6 ;
+  caret-color: #fff;
+  color: #fff;
+  padding-left: 10px;
+}
+.footer-col input::placeholder {
+  color: #ccc;
+}
+ .footer-col form button {
+  background: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+.footer-col form button:hover {
+  background: #cecccc;
+}
+.footer-col .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+.footer-col .icons i {
+  color: #afb6c7;
+}
+.footer-col .icons i:hover  {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+  .footer .footer-row {
+    padding: 20px;
+    gap: 1rem;
+  }
+  .footer-col form {
+    display: block;
+  }
+  .footer-col form :where(input, button) {
+    width: 100%;
+  }
+  .footer-col form button {
+    margin: 10px 0 0 0;
+  }
+}
+.navbar-bottom {
+  position: absolute;
+  bottom: -4500px;
+  left: 0;
+  right: -200px;
+
+  background-color: black;
+}
+.section-1 {
+  padding-top: 100px;
+}
